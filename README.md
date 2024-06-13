@@ -2,8 +2,8 @@
 This is my implementation of the multi-fidelity deep neural network architecture proposed in ["A composite neural network that learns from multi-fidelity data: Application to function approximation and inverse PDE problems".](https://doi.org/10.1016/j.jcp.2019.109020)
 
 Files:
-- mdfl.py: Implementation of a single- and multi-fidelity architectures.
-- multifidelity_benchmark.ipynb: I tested the networks on some of the benchmark problems presented in the paper (linear and non-linear correlations), I forgot to add the plot legends but you can see that the predictions are good :)
+- `mdfl.py`: Implementation of a single- and multi-fidelity architectures.
+- `multifidelity_benchmark.ipynb`: I tested the networks on some of the benchmark problems presented in the paper (linear and non-linear correlations), I forgot to add the plot legends but you can see that the predictions are good :)
 
 Notes:
 - It is written in PyTorch.
